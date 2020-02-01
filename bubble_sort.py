@@ -9,5 +9,5 @@ def bubbleSort(nums):
                 nums[j+1] = tmp
     return nums
 
-nums = [2,3,1,5,8,7,4,3]
+nums = [2,3,1,5,8,7,4,3,9,4]
 print(bubbleSort(nums))
