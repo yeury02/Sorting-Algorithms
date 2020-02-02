@@ -3,7 +3,9 @@ def mergeSort(A):
     if len(A) > 1:
         m = len(A)//2
         l = A[:m]
+        print(l)
         r = A[m:]
+        print(r)
         mergeSort(l)
         mergeSort(r)
         merge(l,r)
